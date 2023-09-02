@@ -1,0 +1,284 @@
+:root{
+  --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --text: #050F5A;
+    --blue-text:#0A5AAF;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+.light{
+  color:#26cda4;
+}
+.text,p{
+  color:var(--text);
+}
+h1,h2{
+  color: var(--text);
+}
+h3{
+  color: var(--blue-text);
+}
+.h1toh3{
+  color: var(--blue-text);
+}
+.mails:hover{
+  background-color: var(--red);
+}
+.phonee:hover{
+  background-color: black;
+}
+.instagram:hover{
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.twitter:hover{
+  background-color: var(--info);
+}
+.facebook:hover{
+  background-color: var(--indigo);
+}
+.linkedin:hover{
+  background-color: var(--info);
+}
+body{
+  background-image: url(./image/qinvia-wallpaper1.jpg);
+}
+.bg-service {
+  background-image: url(./image/qinvia-desktop.jpg);
+}
+.active{
+  color: rgba(175,225,230,0.99);
+}
+/* ################################nav bar ################################# */
+#nav{
+  top: 0;
+  left: 0;
+}
+.logo{
+  width:150px;
+  height: 100%;;
+}
+.items-container{
+  height: 100%;
+}
+.nav-item-container{
+  width: 80%;
+  justify-content: space-between;
+}
+.navbar-icons{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.nav-item-social{
+  align-content: center;
+  width: 10px;
+  height: 10px;
+}
+.nav-link-social i{
+  width: 100px;
+  height: 100px;
+}
+.nav-link-social i::before{
+  display: block;
+}
+
+.custom-dropdown {
+  border-radius: 4px;
+  cursor: pointer;
+}
+.dropdown-icon{
+  height: 30px;
+}
+.dropdown-menu {
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content {
+  justify-content: space-evenly;
+}
+
+.custom-dropdown.active .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+.usa {
+  width: 16px;
+  height: 16px;
+}
+.bi-list{
+  display: none;
+  height: max-content;
+}
+/* #############################Home##################### */
+.home {
+  background-image: url(image/algotrading.jpg);
+}
+.home-container{
+  max-width: 60%;
+  max-height:50%;
+  top: 50%;
+  left: 50%;
+}
+.arrow-container{
+  width: 30px;
+  height:30px;
+  top: 85%;
+  left: 50%;
+  border: 1px solid white;
+}
+.bi-arrow-down::before{
+  font-size: 1.3rem;
+  font-weight: 600 !important;
+}
+/* ###############################Service##################################### */
+.about-container{
+  width: 80%;
+  height: 75%;
+  box-shadow: 5px 5px 10px black;
+}
+/* ###############################Video##################################### */
+.video-image{
+  max-width: 100%;
+  max-height: 100%;
+}
+/* ###############################Service##################################### */
+#Service{
+  height: fit-content;
+}
+.service-moto{
+  width: 40%;
+}
+.service-container{
+  justify-content: space-evenly;
+}
+.item{
+  width: 25%;
+  justify-content: start;
+  padding-bottom: 1rem;
+}
+.team-p{
+  width: 80%;
+}
+.seprate{
+  width: 79%;
+}
+.service-logo{
+  width: 60px;
+  height: 60px;
+  background-color: var(--text);
+}
+.common::before{
+  font-size: 1.8rem;
+  font-weight: 800 !important;
+  color: var(--white);
+}
+.item-3{
+  padding:.3rem;
+}
+.item{
+  z-index: 2;
+}
+.item::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1%;
+  background-color: var(--text);
+  transition: all .2s ease-in-out;
+}
+.item:hover::before{
+  height: 100%;
+  z-index: -1;
+} 
+.item:hover .service-logo{
+  background-color: var(--white);
+}
+.item:hover .hover-i::before{
+  color: var(--text);
+}
+.item:hover .hover-p{
+  color: var(--white);
+}
+.item:hover .hover-h1{
+  color: var(--white);
+}
+
+/* ###############################Effect##################################### */
+.view-30{
+  height: 30vh;
+}
+/* ###############################Team##################################### */
+.ceo-container{
+  width: 80%;
+}
+.ceo-photo{
+  max-width: 80%;
+  max-height: 80%;
+}
+.border-b{
+  border-bottom: 1px solid rgb(165, 163, 163);
+}
+.ceo-icons{
+  margin-left: auto;
+  margin-right: 3rem;
+}
+/* #########################################################Contact######################## */
+#Contact{
+  background-image: url(./image/worldtradecenter.jpg);
+  overflow: hidden;
+}
+.filter{
+  background-color: var(--text);
+  width: 100%;
+  z-index: -1;
+  opacity: .8;
+}
+.contact-icon::before{
+  display: block;
+}
+/* ######################################################Footer################################## */
+.footer-img{
+  max-width: 100px;
+  max-height: 50px;
+}
+.footer-container-item{
+  width: 100%;
+}
+
+.bi-arrow-up-circle-fill{
+  opacity: .95;
+  overflow: hidden;
+  bottom: 5%;
+  right: 5%;
+}
+.bi-arrow-up-circle-fill::before{
+  overflow: hidden;
+  font-size: 2rem;
+  font-weight: 800 !important;
+}

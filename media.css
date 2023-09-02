@@ -1,0 +1,510 @@
+/* Extra Small (xs): Up to 575.98px
+Large (lg): 992px - 1199.98px
+Extra Large (xl): 1200px and larger */
+@media only screen and (min-width:992px) and (max-width: 1199.98px) {
+  .h1{
+    font-size: 1.5rem;
+  }
+  .h3{
+    font-size: 1rem ;
+  }
+  .para{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }  
+  .h2{
+    font-size: 1.2rem;
+  }
+    /* #############################nav############################## */
+    .nav-item-container {
+        width: 100%;
+    }
+    /* #############################home############################### */
+    #home{
+      min-height: 292px;
+      max-height: 950px;
+    }
+    .home-container{
+        width: 40%;
+        height:50%;
+    }
+    .arrow-container{
+      width: 50px;
+      height:50px;
+    }
+    .bi-arrow-down::before{
+      font-size: 1.3rem;
+      font-weight: 700 !important;
+    }
+    /* #################################About###################### */
+    #About{
+      height: fit-content;
+    }
+    .about-h1{
+        padding-top: 1rem;
+    }
+    .about-container{
+        width: 90%;
+        flex-direction: row;
+    }
+    .about-para{
+        margin: 0;
+    }
+    /* ######################################Team########################*/
+    .view-30{
+      min-height: 135px;
+    }
+    /* ######################################Team########################*/
+    #Service{
+      height: fit-content;
+    }
+    .service-h1{
+        padding-top: 3rem;
+    }
+    .service-moto{
+        width: 70%;
+    }
+    .service-container{
+        margin-top: 3rem;
+    }
+    .item{
+        width: 25%;
+        align-items:center ;    
+        padding-bottom: 3rem;
+
+    }
+    /* ##################################Team########################## */
+    #Team{
+      height: fit-content;
+    }
+    .team-h1{
+        padding-top: 2rem;
+    }
+    .ceo-container{
+        width: 90%;
+    }
+    /* ####################################Contact################ */
+    .contact-h1{
+        padding-top: 2rem;
+    } 
+    /* #######################footer################## */
+    .footer-item{
+        width: 30%;
+    }
+    .footer-item p{
+        margin: 0;
+    }
+    .footer-item3 p{
+      width: 30%;
+        padding: 0;
+    }
+}
+/* ##################################Bar lines############################ */
+@media (max-width: 991px) {
+.bi-list{
+  display: block;
+}
+.items-container{
+	position: absolute;
+  height: max-content;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  display: none;
+
+} 
+.nav-item-container{
+  width: 80%;
+  justify-content: space-between;
+}
+.navbar-nav{
+	flex-direction: column;
+  opacity: 0;
+  animation: all .5s forwards ease-in-out;
+}
+@keyframes all{
+  0%{
+    height: 0;
+    opacity: 0;
+  }    
+  100%{
+    height: max-content;
+    opacity: 1;
+  }
+}
+.navbar-nav{
+  align-content: flex-start;
+}
+.nav-item{
+  animation: display .5s forwards ease-in-out;
+}
+@keyframes dispaly{
+  0%{
+    opacity: 0;
+  }    
+  100%{
+    opacity: 1;
+  }
+}
+}
+
+/* Small (sm): 576px - 767.98px
+Medium (md): 768px - 991.98px */
+@media only screen and (min-width:768px) and (max-width: 991.98px) {  
+  .office-image{
+    width: 96%;
+}
+  .h1{
+    font-size: 1.3rem;
+  }
+  .h3{
+    font-size: .9rem ;
+  }
+  .para{
+    font-size: 0.9rem;
+    font-weight: 600;
+  }  
+  .h2{
+    font-size: 1.1rem;
+  }
+  /* #################################About###################### */
+  #home{
+    min-height: 584px;
+  }
+  /* #################################About###################### */
+  #About{
+    height: fit-content;
+  }
+  .about-container{
+    width: 100%;
+  }
+  .about-para{
+    margin: 0;
+  }
+  /* ###########################video################# */
+  .video-image{
+    max-width: 200px;
+    max-height:200px ;
+  }
+  /* ######################################Team########################*/
+  .view-30{
+    min-height: 200px;
+  }
+  /* ######################################Team########################*/
+  #Service{
+    height: fit-content;
+  }
+  .service-h1{
+    padding-top: .2rem;
+  }
+  .service-moto{
+    width: 70%;
+  }
+  .service-logo{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+  }
+  .common::before{
+    font-size: 1.3rem;
+    font-weight: 600 !important;
+  }
+  .item{
+    width: 50%;
+    height: 60%;
+    align-items:center ;
+    padding-bottom: 3rem;
+  }
+  .item p{
+    width: 80%;
+  }
+  /* ##################################Team########################## */
+  #Team{
+    height: fit-content;
+  }
+  .ceo-container{
+      width: 100%;
+  }
+  .team-p{
+    width: 100%;
+  }
+  .ceo-intro-h2{
+    width: 100%;
+  }
+  .ceo-intro-h1{
+    width: 100%;
+  }
+  /* ####################################Contact################ */
+  .contact-h1{
+      padding-top: 2rem;
+  } 
+  .contact-h3{
+    width: 50%;
+  }
+.content-item{
+  width: 40%;
+}
+  /* ############1###########footer################## */
+  #Footer{
+    margin-top: -15%;
+  }
+  .footer-item{
+    width: 33%;
+  }
+  .footer-3-item{
+    padding: 0;
+    width: 33%;
+  }
+  .footer-item p{
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  
+  .h1{
+    font-size: 1.2rem;
+  }
+  .h3{
+    font-size: .9rem ;
+  }
+  .para{
+    font-size: 0.8rem;
+    font-weight: 600;
+  }  
+  .h2{
+    font-size: 1rem;
+  }
+  /* #################################Nav###################### */
+  .navbar-icons{
+    display: none;
+  }
+  .nav-item-container{
+    width: 85%;
+  }
+  /* #################################Home###################### */
+  #home{
+    min-height: 477px !important;
+    height: 70vh;
+  }
+  /* #################################About###################### */
+  #About{
+    height: fit-content;
+  }
+  .about-h1{
+    font-size: 1.2rem;
+  }
+  .about-h3{
+    font-size: .9rem ;
+  }
+  .about-container{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: start;
+    height: fit-content;
+  }
+  .about-content{
+    width: 100%;
+    height: 50%;
+  }
+  .about-image{
+    width: 100%;
+    height: 50%;
+  }
+  .about-para{
+    margin: 0;
+  }
+
+  /* ######################################Video/Effect########################*/
+  .view-30{
+    min-height: 150px;
+  }
+  /* ######################################Team########################*/
+  #Service{
+    height: fit-content;
+  }
+  .service-h1{
+    padding: 0.2rem;
+    padding-left: 0;
+    padding-right: 0%;
+  }
+  .service-h3{
+    padding: 0.2rem;
+    padding-left: 0;
+    padding-right: 0%;
+    margin-top: 0.2rem;
+  }
+  .service-moto{
+    width: 70%;
+  }
+  .service-container{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .service-logo{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+  }
+  .common::before{
+    font-size: 1.3rem;
+    font-weight: 600 !important;
+  }
+  .item{
+    margin-top: .5rem;
+    width: 100%;
+    height: 25%;
+    align-items:center ;
+    flex-direction: column;
+    width: 70%;
+    padding: 3rem;
+    padding-left: 0;
+    padding-right: 0%;
+  }
+  .item p{
+    width: 80%;
+  }
+  /* ##################################Team########################## */
+  #Team{
+    height: fit-content;
+
+  }
+  .team-h1{
+    padding: .2rem;
+    padding-left: 0;
+    padding-right: 0%;
+  }
+  .ceo-container{
+    width: 100%;
+    flex-direction: column;
+  }
+  .ceo-image{
+    width: 100%;
+  }
+  .ceo-photo{
+    max-width:60%;
+    max-height: 70%;
+
+  }
+  .ceo-intro{
+    width: 100%;
+  }
+  .team-p{
+    text-align: center;
+    width: 100%;
+  }
+  .ceo-intro-h2{
+    width: 100%;
+  }
+  .ceo-intro-h1{
+    width: 100%;
+  }
+  /* ####################################Contact################ */
+  .contact-details1{
+    margin-top: .3rem;
+  }
+  .contact-h1{
+    padding-top: .8rem;
+  } 
+  .contact-h3{
+    padding-top: .8rem;
+    width: 60%;
+  } 
+  .content-item{
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+  .social-platform{
+    margin: 0;
+  }
+  /* ############1###########footer################## */
+  .footer-container{
+    flex-direction: column;
+  }
+  .footer-item{
+    width: 100%;
+  }
+  .footer-item2{
+    padding: .5rem;
+    padding-left: 0;
+    padding-right: 0%;
+  }
+  .footer-item p{
+    margin: 0;
+  }
+}
+/* ###############################media max-width:566################## */
+@media (max-width: 566.9px){
+  
+  .h1{
+    font-size: 1rem;
+  }
+  .h3{
+    font-size: .8rem ;
+  }
+  .para{
+    font-size: 0.7rem;
+    font-weight: 700;
+  }  
+  .h2{
+    font-size: .9rem;
+  }
+  /* #################################Nav###################### */
+  .navbar-icons{
+    display: none;
+  }
+  .nav-item-container{
+    width: 80%;
+  }
+  /* #################################Home###################### */
+  #home{
+    min-height: 477px;
+    height: 60vh;
+  }
+  .home-container{
+    width: 300px;
+    max-width: 300px;
+    top: 40%;
+  }
+  .arrow-container{
+    top: 85%;
+  }
+  /* ###########################video################# */
+  .view-30{
+    min-height: 120px;
+    height: 120px;
+  }
+  .item p{
+    width: 100%;
+  }
+}
+@media (max-width: 309px){
+  #nav{
+    max-width: 99vw;
+    justify-content: space-between;
+  }
+  .nav-item-container{
+    width: fit-content;
+  }
+  .custom-dropdown-container{
+    display: none;
+  }
+  #home{
+    min-height: 300px;
+    height: 50vh;
+  }
+  .home-container{
+    width: 150px;
+    max-width: 150px;
+    top: 50%;
+  }
+  .item p{
+    width: 100%;
+  }
+  .contact-h3{
+    width: 100%;
+  } 
+}
